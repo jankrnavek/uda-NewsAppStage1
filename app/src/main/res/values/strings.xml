@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NewsAppStage1</string>
+
+    <string name="nothing_to_show">There is no data from Guardian.\nPlease try again later.</string>
+    <string name="no_connection">No internet connection.</string>
+</resources>
