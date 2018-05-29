@@ -25,12 +25,6 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
         List<News> newsList = new ArrayList<>();
 
-//        try {
-//            Thread.sleep(2000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-
         try {
             newsList = NewsUtils.getNewsLists();
         } catch (IOException e) {

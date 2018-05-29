@@ -19,7 +19,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<News>> {
 
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private static final int LOADER_ID = 1;
 
     private NewsAdapter mAdapter;
